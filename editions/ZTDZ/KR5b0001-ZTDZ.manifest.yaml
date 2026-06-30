@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0001/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0001/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靈寶天尊說洪恩靈濟真君妙經
+  date: '2015-08-28 23:47:00.874319'
+  source:
+    repository: kanripo
+    path: KR5b0001
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0001_000-ZTDZ.yaml, hash: 'sha256:5ae10c950e8ce5db831f1f0d8b071aad4bb9b595cd40592d6cf4c9b6848c97f2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0001_000-ZTDZ.markers.yaml, hash: 'sha256:23328fc9776b229d21088154ce4ee541698a51d1adefc08e39671cfa1970dcd3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0001_SJB_000-050841c
+    span:
+    - body
+    - 0
+    - 102
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6d029792b7310afd62b5ba7f466324b22f22cf5076555e4607ba3d7ce26824a4
